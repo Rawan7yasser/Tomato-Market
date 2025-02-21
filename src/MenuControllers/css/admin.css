@@ -1,0 +1,78 @@
+/* Main container for the controllers page */
+.controllers {
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    max-width: 1200px;
+    margin: 0 auto;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Opening paragraph with a highlight message */
+  .opening-p {
+    font-size: 20px;
+    font-weight: bold;
+    color: #2d6a4f;
+    margin-bottom: 20px;
+  }
+  
+  /* Welcome message styling */
+  .controllers p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 30px;
+  }
+  
+  /* Styling for the buttons container */
+  .new-item {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  /* Styling for each button */
+  .add {
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #2a9d8f;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  /* Button hover effect */
+  .add:hover {
+    background-color: #264653;
+    transform: translateY(-2px);
+  }
+  
+  /* Button active effect */
+  .add:active {
+    background-color: #1d5c4d;
+    transform: translateY(0);
+  }
+  
+  /* Responsive layout for smaller screens */
+  @media screen and (max-width: 768px) {
+    .controllers {
+      padding: 20px;
+    }
+  
+    .opening-p {
+      font-size: 18px;
+    }
+  
+    .controllers p {
+      font-size: 14px;
+    }
+  
+    .new-item {
+      flex-direction: column;
+      gap: 15px;
+    }
+  }
+  

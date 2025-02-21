@@ -1,0 +1,85 @@
+.swiper{
+    height: 200px;
+    margin: 25px 0px;
+    background-color:white;
+}
+
+.swiper-offers .swiperSlide-offers img{
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+}
+
+
+
+.swiperSlide-offers{
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.price-offer{
+  width: 25%;
+}
+
+.new-Price{
+    font-size: large;
+    font-weight: 500;
+    color: green;
+}
+
+.rowdies-light {
+    font-family: "Rowdies", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .title-offer-item.rowdies-regular {
+    font-family: "Rowdies", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .rowdies-bold {
+    font-family: "Rowdies", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+
+  .bona-nova-sc-regular-italic {
+    font-family: "Bona Nova SC", serif;
+    font-weight: 400;
+    font-style: italic;
+  } 
+
+
+.swiper-offers .swiperSlide-offers .price{
+    color:gray;
+    font-size: medium;
+    font-weight:800;
+    text-decoration:line-through;
+}
+
+
+.icons-offer{
+  width: 5%;
+}
+
+
+.swiper-offers .TbShoppingBagCheck,
+.swiper-offers .TbShoppingBag{
+position: relative;
+border-radius: 0px;
+width: 25px;
+height: 25px;
+margin-left: -10px;
+
+}
+
